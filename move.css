@@ -1,0 +1,34 @@
+*{margin: 0;padding: 0;}
+#main{
+    margin: 20px;
+    width: 1198px;
+    height: 510px;
+    border: 1px solid rgb(232,232,232);
+}
+.top,.second,.third,.fourth{
+    float: left;
+}
+#main .top{
+    width: 200px;
+    height: 510px;
+    background-color: pink;
+}
+.top ul>li{
+    list-style: none;
+    width: 200px;
+    height: 62px;
+    line-height: 62px;
+    margin-top: 2px;
+}
+.top a{
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    width: 200px;
+    padding-left: 20%;
+}
+.top a:hover{
+    width: 160px;
+    height: 62px;
+    background-color: aqua;
+}
